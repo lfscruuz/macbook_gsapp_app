@@ -22,7 +22,7 @@ const StudioLights = () => {
                 />
             </group>
         </Environment>
-        {/* <spotLight
+        <spotLight
             position={[-2, 10, 5]}
             angle={0.15}
             decay={0}
@@ -39,7 +39,7 @@ const StudioLights = () => {
             angle={0.15}
             decay={0.1}
             intensity={Math.PI}
-        /> */}
+        />
     </group>
   )
 }
